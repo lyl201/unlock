@@ -1,0 +1,55 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "微软雅黑";
+	margin: 15px auto;
+}
+.lock_area {
+	width: 60%;
+	flex-wrap: wrap;
+	margin: 50px auto 10px;
+	display: flex;
+	flex-direction: row;
+	/*border: 1px solid black;*/
+}
+
+.lock_area>div {
+	width: 33.3%;
+	height: 33.3%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.lock_area>div>div {
+	width: 50%;
+	height: 50%;
+	border: 2px solid green;
+	border-radius: 50%;
+	background-color: white;
+}
+#canv {
+	display: block;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: -999;
+	/*background-color: yellow;
+*/}
+#tip {
+	width: 60%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+label {
+	display: block;
+	margin: 15px 20%;
+}
